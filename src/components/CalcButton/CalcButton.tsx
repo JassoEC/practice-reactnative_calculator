@@ -20,7 +20,7 @@ export const CalcButton = ({
         style={{
           ...styles.button,
           backgroundColor: color,
-          width: extraWidth ? 180 : 80,
+          width: extraWidth ? 150 : 70,
         }}>
         <Text
           style={{
@@ -36,12 +36,12 @@ export const CalcButton = ({
 
 const styles = StyleSheet.create({
   button: {
-    height: 80,
-    width: 80,
-    borderRadius: 100,
+    height: 70,
+    width: 70,
+    borderRadius: 200,
     justifyContent: 'center',
-    marginHorizontal: 10,
     backgroundColor: '#9B9B9B',
+    marginHorizontal: 5,
   },
   textButton: {
     textAlign: 'center',
